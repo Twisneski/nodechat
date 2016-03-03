@@ -4,25 +4,28 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "server": "nodemon server.js",
+    "serve": "nodemon server.js",
     "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Twisneski/nodechat.git"
+    "url": "git+https://github.com/sscotth/nodechat.git"
   },
-  "author": "Christina Wisneski <tina.wisneski525@gmail.com>",
+  "keywords": [],
+  "author": "Scott Humphries <npm@sscotth.io> (https://sscotth.io/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Twisneski/nodechat/issues"
+    "url": "https://github.com/sscotth/nodechat/issues"
   },
-  "homepage": "https://github.com/Twisneski/nodechat#readme",
+  "homepage": "https://github.com/sscotth/nodechat#readme",
   "devDependencies": {
+    "bower": "^1.7.7",
     "nodemon": "^1.9.1"
   },
   "dependencies": {
     "express": "^4.13.4",
+    "jade": "^1.11.0",
     "socket.io": "^1.4.5"
   }
 }
